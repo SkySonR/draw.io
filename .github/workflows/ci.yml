@@ -5,8 +5,8 @@ name: CI
 jobs:
   build_and_test:
     name: Rust project
-    runs-on: ubuntu-latest
-    steps: windows-2019
+    runs-on: windows-2019
+    steps:
       - uses: actions/checkout@v2
         with:
           repository: 'tonlabs/tonos-se'
