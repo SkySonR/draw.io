@@ -17,4 +17,4 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --release --manifest-path tonos-se/ton-node-se/Cargo.toml
+          args: --release --manifest-path ton-node-se/Cargo.toml
