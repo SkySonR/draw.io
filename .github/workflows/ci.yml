@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: 'tonlabs/tonos-se'
-          ref: 'main'
+          ref: 'master'
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
