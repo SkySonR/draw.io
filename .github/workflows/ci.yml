@@ -3,18 +3,65 @@ on: [push]
 name: CI
 
 jobs:
-  build_and_test:
-    name: Rust project
+ build_win:
+
     runs-on: windows-2019
+    needs: build_linux
+    env:
+      Q_SERVER_GITHUB_REPO: https://github.com/tonlabs/ton-q-server
+      Q_SERVER_GITHUB_REV: master
+
     steps:
-      - uses: actions/checkout@v2
-        with:
-          repository: 'tonlabs/tonos-se'
-          ref: 'master'
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-      - uses: actions-rs/cargo@v1
-        with:
-          command: build
-          args: --release --manifest-path ton-node-se/Cargo.toml
+    - uses: actions/checkout@v2
+
+    - name: Clone GraphQL
+      run: |
+        git clone --recursive --branch $Q_SERVER_GITHUB_REV $Q_SERVER_GITHUB_REPO ton-q-server
+        cp tonsectl/graphql/.env ton-q-server/
+
+    - name: Package GraphQL npm 
+      shell: bash
+      run: echo "##[set-output name=release_tar;]$(npm pack ./ton-q-server | tail -1)"
+      id: graphql_release
+
+    - name: Checkout tonlabs/tonos-se 
+      uses: actions/checkout@v2
+      with:
+        repository: 'tonlabs/tonos-se'
+        ref: 'master'
+        
+    - name: Install toolchain 
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        
+    - name: Build ton-node-se 
+      uses: actions-rs/cargo@v1
+      with:
+        command: build
+        args: --release --manifest-path ton-node-se/Cargo.toml
+
+    - name: Archive GraphQL npm and TON node bin to common release
+      run: |
+        ls *
+        ls ./ton-node-se/*
+        ls ./ton-node-se/target/*
+        ls ./ton-node-se/target/*/*
+        cp ./ton-node-se/target/*/release/ton_node_startup ./ton_node_startup
+        tar -cf tonos-se-windows.tar ./ton_node_startup ${{ steps.graphql_release.outputs.release_tar }}
+
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+
+    - name: Upload Release Asset | node archive
+      id: upload-release-asset-node
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ needs.build_linux.outputs.upload_url }}
+        asset_path: tonos-se-windows.tar
+        asset_name: ${{ steps.extract_branch.outputs.branch }}-windows.tar
+        asset_content_type: application/x-tar
