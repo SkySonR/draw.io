@@ -3,10 +3,34 @@ on: [push]
 name: CI
 
 jobs:
+  build_linux:
+
+    runs-on: ubuntu-18.04
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+    env:
+      TONSECTL_VERSION: v0.0.1
+      Q_SERVER_GITHUB_REPO: https://github.com/tonlabs/ton-q-server
+      Q_SERVER_GITHUB_REV: master
+      TONOSSE_GITHUB_REPO: https://github.com/tonlabs/tonos-se
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.event.inputs.tonosse_version }}
+        release_name: ${{ github.event.inputs.tonosse_version }}
+        draft: false
+        prerelease: false
+        
  build_win:
 
     runs-on: windows-2019
-    needs: build_linux
     env:
       Q_SERVER_GITHUB_REPO: https://github.com/tonlabs/ton-q-server
       Q_SERVER_GITHUB_REV: master
