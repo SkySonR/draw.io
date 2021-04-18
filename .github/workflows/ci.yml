@@ -38,7 +38,7 @@ jobs:
     - name: Clone GraphQL
       run: |
         git clone --recursive --branch master https://github.com/tonlabs/ton-q-server ton-q-server
-        cp tonsectl/graphql/.env ton-q-server/
+        
 
     - name: Package GraphQL npm 
       shell: bash
