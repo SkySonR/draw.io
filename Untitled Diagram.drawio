@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T14:54:36.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9wvrIIEkGqCCyeQPZmqF" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T15:09:08.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="JMFsBtV6LjMTEpjTHQb-" version="14.5.3" type="github">
   <diagram id="ZK6HPEsprwpdikMMyWoB" name="Page-1">
-    <mxGraphModel dx="2757" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,8 +95,8 @@
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-58" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="1">
           <mxGeometry x="168.32" y="512.8" width="19.34" height="37.2" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-74" value="Code + Wallet Key +&lt;br&gt;InitData(Service Key)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="650" width="130" height="30" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-74" value="Code + Wallet Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode +Service Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="650" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-87" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="168.32" y="468.29999999999995" width="91.68" height="41.700000000000045" as="geometry" />
@@ -107,8 +107,8 @@
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-68" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-87">
           <mxGeometry y="5.684341886080802e-14" width="21.68" height="41.7" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-96" value="Code +&amp;nbsp;Service Key + InitData(Wallet Key)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="655" width="240" height="20" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-96" value="Code +&amp;nbsp;Service Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode + Wallet Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="650" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-49" target="OKCMsFRb3ApRSYApt_VZ-54">
           <mxGeometry relative="1" as="geometry">
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-34" value="must be able to find all their subscribers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-111">
           <mxGeometry x="10" y="50" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-117" value="DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="65" y="250" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
