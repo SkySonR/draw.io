@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:27:44.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="liQw5CSJvItoEF_3MGPj" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:34:33.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PvQvx-EO-AdiZwAkn0xf" version="14.5.3" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
-    <mxGraphModel dx="2889" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,17 +12,17 @@
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-1" target="QAv9NvRIN385SjmwrI3n-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="-201" as="targetPoint" />
+            <mxPoint x="186" y="-391" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="30" y="140" />
-              <mxPoint x="30" y="190" />
-              <mxPoint x="230" y="190" />
-              <mxPoint x="230" y="155" />
+              <mxPoint x="-34" y="-50" />
+              <mxPoint x="-34" />
+              <mxPoint x="166" />
+              <mxPoint x="166" y="-35" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-1" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="-4" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.146;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-2" target="QAv9NvRIN385SjmwrI3n-5">
           <mxGeometry relative="1" as="geometry">
@@ -36,7 +36,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-2" value="WFN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="235" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -48,10 +48,10 @@
           <mxGeometry x="379" y="-355" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-10" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="100" width="40" height="20" as="geometry" />
+          <mxGeometry x="126" y="-90" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-13" value="1. DAPP должен получить награду за каждое внешнее сообщение которое запустило транзакцию" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="44" y="190" width="380" height="100" as="geometry" />
+          <mxGeometry x="69" y="40" width="380" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-15" value="additional gas for ext&amp;nbsp; messages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="-60" width="190" height="20" as="geometry" />
@@ -89,13 +89,13 @@
           <mxGeometry x="805" y="-85" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-38" value="verifiers + metrics (transID)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="150" width="40" height="20" as="geometry" />
+          <mxGeometry x="-84" y="-40" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-40" target="QAv9NvRIN385SjmwrI3n-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-40" value="Clients" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="290" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-45" value="Stake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1030" width="40" height="20" as="geometry" />
