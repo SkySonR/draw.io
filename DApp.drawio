@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T06:48:27.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.5.3" etag="_EhiDMFZwWCfJfxEr2tc" type="github"><diagram id="jLRbGrz1l-J5pRVXa8KW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:16:56.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="whMjD1wb6ZIBp0JkwCr0" version="14.5.3" type="github">
+  <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
+    <mxGraphModel dx="1718" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QAv9NvRIN385SjmwrI3n-5" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-1" target="QAv9NvRIN385SjmwrI3n-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-1" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAv9NvRIN385SjmwrI3n-2" target="QAv9NvRIN385SjmwrI3n-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-2" value="WFN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="360" as="sourcePoint" />
+            <mxPoint x="470" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-4" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-6" value="off-chain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-8" value="off-chain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="70" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-10" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-12" value="write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-13" value="1. DAPP должен получить награду за каждое внешнее сообщение которое запустило транзакцию" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-15" value="additional gas for ext messages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-19" value="WFN Elector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-210" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-22" value="TON OS DApp Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAv9NvRIN385SjmwrI3n-23" value="metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="-200" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
