@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T12:59:58.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="nvWys4ko6yKQD77NZJqw" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T13:06:21.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="QLah9SMOVEI_8LpOW0xI" version="14.7.7" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
-    <mxGraphModel dx="2249" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="349.5" y="-440" width="169" height="65" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-13" value="1. WFN должена получить награду за каждое обработанное внешнее сообщение которое вызвало транзакцию" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="-74" y="-550" width="1104" height="100" as="geometry" />
+          <mxGeometry x="-60" y="-620" width="1104" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QAv9NvRIN385SjmwrI3n-19" target="QAv9NvRIN385SjmwrI3n-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="jl89_LR_Nt9-498Z-iVI-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Current problems:&lt;br&gt;&lt;br&gt;1. Как определить что транзакция обработана конкретным WFN сервером и сообщить об этом электору. (защита от обмана)&lt;br&gt;2.&amp;nbsp; Если СДК клиент сообщил что какой то сервер ответил ему не правильные данные. Как проверить эту информацию и сообщить электору (защита от обмана)&lt;br&gt;3. Описать как электор должен считать награду в зависимости от количества обслуженных транзакций и как он будет принимать решения по слешингу или по не выплате награды&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-300" width="460" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="jl89_LR_Nt9-498Z-iVI-45" value="2. WFN должена разделить потеряную часть стейка ноды которая пыталась подменить информацию для клиента&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-584" width="1120" height="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
