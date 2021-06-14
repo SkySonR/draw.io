@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T21:17:11.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="90ESh3JKNZeuEB091WND" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T21:18:22.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ztFJCsgg_3L5r_5ZIHv4" version="14.7.7" type="github">
   <diagram id="ZK6HPEsprwpdikMMyWoB" name="Page-1">
     <mxGraphModel dx="2249" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-48" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="510" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-49" value="Service&lt;br&gt;Subscription&lt;br&gt;contract&lt;br&gt;(Invite)" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-48" vertex="1">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-49" value="Service&lt;br&gt;Subscription&lt;br&gt;contract&lt;br&gt;(Invite -&amp;gt; Account)" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-48" vertex="1">
           <mxGeometry width="119.9961535355934" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-50" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-48" vertex="1">
@@ -72,7 +72,7 @@
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-56" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="265" y="570" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-57" value="User&lt;br&gt;Subscription URI&lt;br&gt;contract" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-56" vertex="1">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-57" value="User&lt;br&gt;Subscription URI&lt;br&gt;contract&lt;br&gt;(Account -&amp;gt; Invite)" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-56" vertex="1">
           <mxGeometry width="114.99631380494358" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKCMsFRb3ApRSYApt_VZ-97" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-56" vertex="1">
