@@ -1,133 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T20:11:07.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Fn96iVJa4qVLIOIe6ea8" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T15:12:48.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="87EWYthuZUOtJpjZMvFZ" version="14.7.7" type="github">
   <diagram id="ZK6HPEsprwpdikMMyWoB" name="Page-1">
     <mxGraphModel dx="2249" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-4" target="OKCMsFRb3ApRSYApt_VZ-117">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="570" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-13" value="Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-26" value="Service&lt;br&gt;Subscription Root" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-27" target="OKCMsFRb3ApRSYApt_VZ-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-27" target="OKCMsFRb3ApRSYApt_VZ-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-27" target="OKCMsFRb3ApRSYApt_VZ-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-27" target="OKCMsFRb3ApRSYApt_VZ-54">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-4" target="OKCMsFRb3ApRSYApt_VZ-117" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="325" y="470" />
-              <mxPoint x="325" y="470" />
+              <mxPoint x="101" y="465" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-27" target="OKCMsFRb3ApRSYApt_VZ-57">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-13" value="Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-27" value="User&lt;br&gt;Subscription Root" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-33" value="Users must be able to find all their subscriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="655" width="265" height="20" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-26" target="OKCMsFRb3ApRSYApt_VZ-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-34" target="OKCMsFRb3ApRSYApt_VZ-26">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-26" value="Service&lt;br&gt;Subscription Root" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-117" target="OKCMsFRb3ApRSYApt_VZ-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="337" />
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-33" value="Users must be able to find all their subscriptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="650" width="265" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-34" target="OKCMsFRb3ApRSYApt_VZ-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="880" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-48" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="510" y="590" width="120.00384658770463" height="60" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-48" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-49" value="Service&lt;br&gt;Subscription&lt;br&gt;contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-48">
-          <mxGeometry width="120" height="60" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-49" value="Service&lt;br&gt;Subscription&lt;br&gt;contract" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-48" vertex="1">
+          <mxGeometry width="119.9961535355934" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-50" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-48">
-          <mxGeometry x="103.32307952622693" width="16.680767061477724" height="32.078398195149475" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-50" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-48" vertex="1">
+          <mxGeometry x="103.31976762166212" width="16.680232378337916" height="32.07736995834215" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-54" target="OKCMsFRb3ApRSYApt_VZ-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-54" value="Wallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-56" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="269.99999999999994" y="585" width="120.00384658770471" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-57" value="User&lt;br&gt;Subscription&lt;br&gt;contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-56">
-          <mxGeometry width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-97" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-56">
-          <mxGeometry x="103.32307952622699" y="5" width="16.680767061477724" height="32.078398195149475" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-74" value="Code + Wallet Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode +Service Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="650" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-87" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="30" y="370" width="65" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-64" value="Service PubKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-87">
-          <mxGeometry x="22.460732984293198" width="42.539267015706805" height="22.194244604316523" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-68" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-87">
-          <mxGeometry y="4.08945459430273e-14" width="10.398081534772171" height="19.99999999999998" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-96" value="Code +&amp;nbsp;Service Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode + Wallet Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="650" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-49" target="OKCMsFRb3ApRSYApt_VZ-54">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-54" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="620" />
-              <mxPoint x="660" y="405" />
+              <mxPoint x="495" y="300" />
+              <mxPoint x="700" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-104" value="&lt;span&gt;Premium feature&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="350" width="100" height="20" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-54" value="Wallet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="270" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-117" target="OKCMsFRb3ApRSYApt_VZ-27">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-56" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="265" y="570" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-117" value="Subscriptions&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="65" y="250" width="90" height="90" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-57" value="User&lt;br&gt;Subscription URI&lt;br&gt;contract" style="rounded=0;whiteSpace=wrap;html=1;" parent="OKCMsFRb3ApRSYApt_VZ-56" vertex="1">
+          <mxGeometry width="114.99631380494358" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-118" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="370" width="50" height="20" as="geometry" />
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-97" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-56" vertex="1">
+          <mxGeometry x="99.01477730409283" y="5" width="15.985222695907158" height="30.740812876744542" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-65" value="My Wallet PubKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-118">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-74" value="Code + Wallet Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode +Service Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="650" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-87" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="30" y="385" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-64" value="Service PubKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OKCMsFRb3ApRSYApt_VZ-87" vertex="1">
+          <mxGeometry x="22.460732984293198" width="42.539267015706805" height="22.194244604316523" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-68" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-87" vertex="1">
+          <mxGeometry y="4.08945459430273e-14" width="10.398081534772171" height="19.99999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-96" value="Code +&amp;nbsp;Service Key + InitData(Number)&lt;br&gt;&amp;nbsp;then SetCode + Wallet Key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="650" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-49" target="OKCMsFRb3ApRSYApt_VZ-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="620" />
+              <mxPoint x="660" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-104" value="&lt;span&gt;Premium feature&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OKCMsFRb3ApRSYApt_VZ-117" target="OKCMsFRb3ApRSYApt_VZ-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-117" value="Subscriptions&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="60" y="270" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-118" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="110" y="390" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-65" value="My Wallet PubKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OKCMsFRb3ApRSYApt_VZ-118" vertex="1">
           <mxGeometry x="17.277486910994767" y="3.870967741935503" width="32.72251308900523" height="10.752688172042998" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-58" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" vertex="1" parent="OKCMsFRb3ApRSYApt_VZ-118">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-58" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="OKCMsFRb3ApRSYApt_VZ-118" vertex="1">
           <mxGeometry width="10.397849462365578" height="19.999999999999975" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-34" value="must be able to find all their subscribers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-34" value="must be able to find all their subscribers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="480" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OKCMsFRb3ApRSYApt_VZ-5" value="Service&lt;br&gt;provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="OKCMsFRb3ApRSYApt_VZ-5" value="Service&lt;br&gt;provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aW_koZJMJH44laErz_zW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKCMsFRb3ApRSYApt_VZ-49" target="OKCMsFRb3ApRSYApt_VZ-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
