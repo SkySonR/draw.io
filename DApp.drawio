@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T09:47:01.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4EK7ssckVQ5PNY1Adyqu" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T11:00:32.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VK3naoTISVAgTAxYbMGw" version="14.8.0" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
     <mxGraphModel dx="3253" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-5" value="&lt;br&gt;&lt;br&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="-550" width="1380" height="890" as="geometry" />
+          <mxGeometry x="460" y="-550" width="1200" height="890" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-1" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="-355" width="120" height="60" as="geometry" />
@@ -93,7 +93,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jl89_LR_Nt9-498Z-iVI-4" value="Validators Elector" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="-230" width="145" height="90" as="geometry" />
+          <mxGeometry x="1055" y="-230" width="145" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jl89_LR_Nt9-498Z-iVI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jl89_LR_Nt9-498Z-iVI-6" target="jl89_LR_Nt9-498Z-iVI-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -165,8 +165,8 @@
         <mxCell id="jl89_LR_Nt9-498Z-iVI-42" value="External Messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="388" y="-250" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jl89_LR_Nt9-498Z-iVI-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Current problems:&lt;br&gt;&lt;br&gt;1. Как определить что транзакция обработана конкретным WFN сервером и сообщить об этом электору. (защита от обмана)&lt;br&gt;2.&amp;nbsp; Если СДК клиент сообщил что какой то сервер ответил ему не правильные данные. Как проверить эту информацию и сообщить электору (защита от обмана)&lt;br&gt;3. Описать как электор должен считать награду в зависимости от количества обслуженных транзакций и как он будет принимать решения по слешингу или по не выплате награды&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="-300" width="460" height="520" as="geometry" />
+        <mxCell id="jl89_LR_Nt9-498Z-iVI-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Current problems:&lt;br&gt;&lt;br&gt;1. Как определить что транзакция обработана конкретным WFN сервером и сообщить об этом электору. (защита от обмана)&lt;br&gt;2.&amp;nbsp; Если СДК клиент сообщил что какой то сервер ответил ему не правильные данные. Как проверить эту информацию и сообщить электору (защита от обмана)&lt;br&gt;3. Описать как электор должен считать награду в зависимости от количества обслуженных транзакций и как он будет принимать решения по слешингу или по не выплате награды&amp;nbsp;&lt;br&gt;4. Сколько stTON должно быть чтобы получать награду, нужны ли стейки от других людей и награда за них (из гивера)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="-280" width="460" height="520" as="geometry" />
         </mxCell>
         <mxCell id="jl89_LR_Nt9-498Z-iVI-45" value="2. WFN должена разделить потеряную часть стейка ноды которая пыталась подменить информацию для клиента&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="-60" y="-584" width="1120" height="104" as="geometry" />
@@ -179,10 +179,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAEtTWBix-Zt7HTM6lEx-1" value="WFN Giver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uAEtTWBix-Zt7HTM6lEx-1" value="WFN Giver&lt;br&gt;(Optional)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="-360" width="146.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jl89_LR_Nt9-498Z-iVI-31" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;OpCode&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;additional gas for ext&amp;nbsp; messages&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;)&lt;/span&gt;" style="shape=tape;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="jl89_LR_Nt9-498Z-iVI-31" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;OpCode&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;additional gas for ext messages&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;)&lt;/span&gt;" style="shape=tape;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="-380" width="190" height="130" as="geometry" />
         </mxCell>
       </root>
