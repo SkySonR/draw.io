@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T09:57:49.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="XM_YdgT5SO6poG4aVciQ" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T10:38:11.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UkWdB0ht2LBW5lRZASEd" version="14.8.0" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
-    <mxGraphModel dx="3253" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3253" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,11 +215,19 @@
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-2" value="Keypair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="-325" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O-DlkbU_5EoTcZhFTg3-6" target="QAv9NvRIN385SjmwrI3n-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="-110" />
+              <mxPoint x="774" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-6" value="WFN Subscription contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="-50" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="-O-DlkbU_5EoTcZhFTg3-8" value="check pubkey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-37.5" width="81" height="20" as="geometry" />
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-8" value="check client pubkey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-37.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O-DlkbU_5EoTcZhFTg3-10" target="-O-DlkbU_5EoTcZhFTg3-6">
           <mxGeometry relative="1" as="geometry" />
@@ -227,8 +235,8 @@
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-10" value="Client Subscription Wallet&lt;br&gt;balance &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="80" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="-O-DlkbU_5EoTcZhFTg3-14" value="price" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="50" width="40" height="20" as="geometry" />
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-14" value="add client public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-16" value="check balance &amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="10" width="106" height="20" as="geometry" />
