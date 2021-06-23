@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T11:42:02.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="RXz95xlsgkxz7K4a4HO8" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T13:26:38.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KyutkxxIhbxXXfd4WZeU" version="14.8.0" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
-    <mxGraphModel dx="3253" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2426" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,9 +21,6 @@
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-8" value="off-chain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="349.5" y="-440" width="169" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="QAv9NvRIN385SjmwrI3n-13" value="1. WFN должена получить награду за каждое обработанное внешнее сообщение которое вызвало транзакцию" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="-620" width="1104" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QAv9NvRIN385SjmwrI3n-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QAv9NvRIN385SjmwrI3n-19" target="QAv9NvRIN385SjmwrI3n-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -194,12 +191,6 @@
         </mxCell>
         <mxCell id="jl89_LR_Nt9-498Z-iVI-42" value="External Messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="388" y="-250" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jl89_LR_Nt9-498Z-iVI-44" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Current problems:&lt;br&gt;&lt;br&gt;1. Как определить что транзакция обработана конкретным WFN сервером и сообщить об этом электору. (защита от обмана)&lt;br&gt;2.&amp;nbsp; Если СДК клиент сообщил что какой то сервер ответил ему не правильные данные. Как проверить эту информацию и сообщить электору (защита от обмана)&lt;br&gt;3. Описать как электор должен считать награду в зависимости от количества обслуженных транзакций и как он будет принимать решения по слешингу или по не выплате награды&amp;nbsp;&lt;br&gt;4. Сколько stTON должно быть чтобы получать награду, нужны ли стейки от других людей и награда за них (из гивера)&lt;br&gt;5. Проблема установки цены на подписку&lt;br&gt;6. Проблема соблюдения условий подписки нодами&lt;br&gt;7. Проблема принятия решения по изменению контрактов WFN электора, WFN дебота&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="-285" width="460" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="jl89_LR_Nt9-498Z-iVI-45" value="2. WFN должена разделить потеряную часть стейка ноды которая пыталась подменить информацию для клиента&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="-584" width="1120" height="104" as="geometry" />
         </mxCell>
         <mxCell id="uAEtTWBix-Zt7HTM6lEx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uAEtTWBix-Zt7HTM6lEx-1" target="QAv9NvRIN385SjmwrI3n-19" edge="1">
           <mxGeometry relative="1" as="geometry">
