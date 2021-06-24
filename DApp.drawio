@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T13:26:38.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KyutkxxIhbxXXfd4WZeU" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T10:35:44.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qEboOmpQWFWukAeXjtz8" version="14.8.0" type="github">
   <diagram id="jLRbGrz1l-J5pRVXa8KW" name="Page-1">
-    <mxGraphModel dx="2426" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2426" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,7 +207,7 @@
           <mxGeometry x="930" y="-380" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-1" value="metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-245" width="164" height="20" as="geometry" />
+          <mxGeometry x="100" y="-230" width="164" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-2" value="Keypair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="-325" width="40" height="20" as="geometry" />
@@ -224,11 +224,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-O-DlkbU_5EoTcZhFTg3-10" value="Client Subscription Wallet&lt;br&gt;balance &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-10" value="Client Wallet&lt;br&gt;balance &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="80" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="-O-DlkbU_5EoTcZhFTg3-14" value="add client public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="40" width="80" height="20" as="geometry" />
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-14" value="1.add client public key&lt;br&gt;2. metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="30" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-16" value="check balance &amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="10" width="106" height="20" as="geometry" />
@@ -248,6 +248,9 @@
         </mxCell>
         <mxCell id="-O-DlkbU_5EoTcZhFTg3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="jl89_LR_Nt9-498Z-iVI-23" target="jl89_LR_Nt9-498Z-iVI-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-DlkbU_5EoTcZhFTg3-39" value="External Messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="238" y="-360" width="96" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
