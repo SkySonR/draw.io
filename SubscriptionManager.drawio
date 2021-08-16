@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T15:17:45.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.9.5" etag="T6H167MDSbpc1DgYi6yG" type="github"><diagram id="p0EohL_LRtxq20vM0YVq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-16T15:39:10.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="JVExZDinCACCO9vfdpsS" version="14.9.5" type="github">
+  <diagram id="p0EohL_LRtxq20vM0YVq" name="Page-1">
+    <mxGraphModel dx="1178" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBgc3x_7UexYjVFQQUt_-2" target="mBgc3x_7UexYjVFQQUt_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-2" value="Client&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBgc3x_7UexYjVFQQUt_-3" target="mBgc3x_7UexYjVFQQUt_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-3" value="Service&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-4" value="SubsMan&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBgc3x_7UexYjVFQQUt_-8" target="mBgc3x_7UexYjVFQQUt_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-8" value="SubsMan&lt;br&gt;DeBot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-12" value="&lt;font style=&quot;font-size: 10px&quot;&gt;SubscriptionService&lt;br&gt;Smart contract&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBgc3x_7UexYjVFQQUt_-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-16" value="Wallet address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-19" value="1. Change salt to varInit in SubscriptionService&lt;br&gt;2. Add discription to SubscriptionService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-20" value="1. Except asking service pubkey - &amp;gt; Query all&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;SubscriptionService contracts and show their discription and ask user to choose&lt;/span&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBgc3x_7UexYjVFQQUt_-23" target="mBgc3x_7UexYjVFQQUt_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="240" />
+              <mxPoint x="90" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBgc3x_7UexYjVFQQUt_-23" value="Wallet address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
